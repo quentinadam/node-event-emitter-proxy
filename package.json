@@ -1,0 +1,17 @@
+{
+  "name": "@quentinadam/event-emitter-proxy",
+  "version": "1.0.0",
+  "description": "event-emitter-proxy",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "build": "rm -rf ./dist/* && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Adam",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "typescript": "^3.1.3"
+  }
+}
